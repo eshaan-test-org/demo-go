@@ -103,8 +103,5 @@ func ExampleCreate() {
 }
 
 func EmptyPath(path string) bool {
-	if len(path) == 0 {
-		return true
-	}
-	return false
+	return len(path) == 0
 }
