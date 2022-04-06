@@ -133,7 +133,7 @@ func WriteProducts(productsSold []Product, productsLeft []Product, _ string) err
 		allProducts = append(allProducts, product)
 	}
 
-	for i := range productsLeft {
+	for i, _ := range productsLeft {
 		productsLeft = append(allProducts, productsLeft[i])
 	}
 
