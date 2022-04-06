@@ -6,3 +6,11 @@ enabled = true
 
   [analyzers.meta]
   import_root = "github.com/eshaan-test-org/demo-go"
+
+[[transformers]]
+name = "gofumpt"
+enabled = true
+
+[[transformers]]
+name = "gofmt"
+enabled = true
