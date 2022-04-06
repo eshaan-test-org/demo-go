@@ -4,8 +4,7 @@ version = 1
 name = "go"
 enabled = true
 
-  [analyzers.meta]
-  import_root = "github.com/eshaan-test-org/demo-go"
+
 
 [[transformers]]
 name = "gofumpt"
