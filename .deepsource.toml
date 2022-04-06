@@ -4,9 +4,11 @@ version = 1
 name = "go"
 enabled = true
 
+
 [[transformers]]
 name = "gofumpt"
 enabled = true
+
 
 [[transformers]]
 name = "gofmt"
