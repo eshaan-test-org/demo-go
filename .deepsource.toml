@@ -5,7 +5,6 @@ name = "go"
 enabled = true
 
 
-
 [[transformers]]
 name = "gofumpt"
 enabled = true
