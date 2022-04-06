@@ -32,7 +32,11 @@ type Dealer struct {
 }
 
 func PromoteSellerToDealer(seller Seller) Dealer {
-	dealer := Dealer(seller)
+	dealer := Dealer{
+		Name:       seller.Name,
+		Address:    seller.Address,
+		IsVerified: seller.IsVerified,
+	}
 	return dealer
 }
 
