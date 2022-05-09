@@ -67,9 +67,7 @@ func HasAnySellersFromCity(sellers []Seller, city string) {
 		fmt.Println("allSellers is empty")
 	}
 
-	for i, x := range sellers {
-		allSellers[i] = x
-	}
+	copy(allSellers, sellers)
 
 	combinedSellers := []Seller{}
 
@@ -133,7 +131,7 @@ func WriteProducts(productsSold []Product, productsLeft []Product, jsonPath stri
 		allProducts = append(allProducts, product)
 	}
 
-	for i, _ := range productsLeft {
+	for i := range productsLeft {
 		productsLeft = append(allProducts, productsLeft[i])
 	}
 
