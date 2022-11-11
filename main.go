@@ -19,13 +19,13 @@ func main() {
 
 	givenCity := "Gotham"
 
-	switch i.(type) {
+	switch i := i.(type) {
 	case interface{}:
 		fmt.Println("What to do")
 	case Product:
-		fmt.Println(i.(Product).DeliversTo(givenCity))
+		fmt.Println(i.DeliversTo(givenCity))
 	case Seller:
-		fmt.Println(i.(Seller).DeliversTo(givenCity))
+		fmt.Println(i.DeliversTo(givenCity))
 	}
 }
 
