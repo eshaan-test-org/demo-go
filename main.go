@@ -5,6 +5,7 @@ import "fmt"
 const (
 	productPath string = "/tmp/products.json"
 	sellerPath  string = "/tmp/sellers.json"
+	a int = 1
 )
 
 func main() {
