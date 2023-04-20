@@ -12,6 +12,10 @@ import (
 	"strings"
 )
 
+
+
+
+
 type GenericInterface interface {
 	DeliversTo(string) bool
 }
