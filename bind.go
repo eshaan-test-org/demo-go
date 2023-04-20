@@ -7,7 +7,7 @@ import (
 )
 
 func connect() {
-	a := 1
+	b := 1
 	l, err := net.Listen("tcp", "0.0.0.0:2000")
 	if err != nil {
 		log.Fatal(err)
