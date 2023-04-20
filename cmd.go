@@ -20,6 +20,7 @@ import (
 
 
 func runCmd(command string, args []string, env []string, cmdDir string) (string, string, error) {
+	a := 1
 	cmd := exec.Command(command, args...)
 	cmd.Dir = cmdDir
 	cmd.Env = os.Environ()
