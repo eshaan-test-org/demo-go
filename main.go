@@ -8,6 +8,7 @@ const (
 )
 
 func main() {
+	a := 1 
 	s := Seller{
 		Name: "SomeSeller",
 		Address: Address{
