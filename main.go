@@ -5,11 +5,11 @@ import "fmt"
 const (
 	productPath string = "/tmp/products.json"
 	sellerPath  string = "/tmp/sellers.json"
-	a int = 1
+	a           int    = 1
 )
 
 func main() {
-	a := 1 
+	a := 1
 	s := Seller{
 		Name: "SomeSeller",
 		Address: Address{
